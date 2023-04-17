@@ -80,7 +80,6 @@ header img {
   padding: 100px;
   z-index: -1;
 }
-
 .get-in-touch-button {
   padding: 20px;
   align-self: flex-start;
@@ -420,12 +419,19 @@ hr {
     height: auto;
     display: flex;
     flex-direction: column;
-    padding:50px 0px ;
+    padding:20px;
   }
-  header a:nth-child(n+1){
+  header a{
     padding: 30px;
   }
+  nav{
+    text-align: center;
+    line-height: 3em;
+    width: 40%;
+  }
   header img{
+    width: 50%;
+    height: auto;
     padding: 30px;
   }
   .container .landing{
@@ -478,7 +484,7 @@ hr {
     height: auto;
     padding-top: 50px;
   }
-  footer div:nth-child(n+1){
+  footer div{
     padding: 20px;
   }
 }
